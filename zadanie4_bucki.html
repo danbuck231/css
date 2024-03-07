@@ -1,0 +1,49 @@
+<html lang="pl-PL">
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<h1>Sposoby podłączania CSS do kodu strony WWW</h1>
+<h3><b><u>Sposób 1 - Zewnętrzny</b></u></h3>
+
+<textarea width="100px" height="50px">
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+</textarea>
+<br>
+<h3><b><u>Sposób 2 - Lokalny(liniowy)</b></u></h3>
+
+<!-- Daniel Bucki 24.11.2023 -->
+<textarea>
+<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+</textarea>
+
+<h3><b><u>Sposób 3 - Wewnętrzny</b></u></h3>
+<textarea>
+<head>
+<style type="text/css">
+selektor1 { cecha: wartość; cecha2: wartość2... }
+selektor2 { cecha: wartość; cecha2: wartość2... }
+</style>
+</head>
+</textarea>
+
+<h3><b><u>Sposób 4 - Alternatywny</b></u></h3>
+<textarea>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>
+</textarea>
+
+<h3><b><u>Sposób 5 - Import</b></u></h3>
+<textarea>
+<style type="text/css">
+@import url(adres zewnętrznego arkusza stylów);
+</style>
+</textarea>
+</body>
+</html>
+<!-- Daniel Bucki 23.11.2023 -->
