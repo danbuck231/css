@@ -1,0 +1,96 @@
+div#border
+{
+	width: 100%;
+	border: 2px black solid;
+}
+p#tytul1
+{
+	text-align:center;
+	font-size:50px;
+	color:GreenYellow;
+}
+p#tytul2
+{
+	text-align:right;
+	font-size:50px;
+	color:SaddleBrown;
+}
+p#zdaniepie
+{
+	text-align:center;
+    font-style:Italic;
+	font-weight: 200;
+	font-size: x-large;
+	font-family: Serif;
+	color: Chartreuse;
+	text-indent: 30mm;
+	line-height: 1cm;
+	word-spacing: 12px;
+	letter-spacing:18mm;
+}
+p#zdaniedru
+{
+	text-align:center;
+	text-decoration: overline;
+	font-weight: 900;
+	font-size: x-small;
+	font-family: Serif;
+	color:LawnGreen;
+	text-indent: 30mm;
+	line-height: 1cm;
+	word-spacing: 12px;
+	letter-spacing:18mm;
+}
+p#zdanietrz
+{
+	text-align:center;
+	text-transform: lowercase;
+	font-weight: 400;
+	font-size: xx-large;
+	font-family: Serif;
+	color: Lime;
+	text-indent: 30mm;
+	line-height: 1cm;
+	word-spacing: 12px;
+	letter-spacing:18mm;
+}
+p#zdaniepied
+{
+	text-align:right;
+    font-style: Oblique;
+	font-weight: 300;
+	font-size: 50px;
+	font-family: Sans-Serif;
+	color: SandyBrown;
+	text-indent: 1cm;
+	line-height: 1cm;
+	word-spacing: 12px;
+	letter-spacing:2ex;
+}
+p#zdaniedrud
+{
+	text-align:right;
+	text-transform: lowercase;
+	text-decoration:line-through;
+	font-weight: 600;
+	font-size: 1em;
+	font-family: Sans-Serif;
+	color: Sienna;
+	text-indent: 1cm;
+	line-height: 1cm;
+	word-spacing: 12px;
+	letter-spacing:2ex;
+}
+p#zdanietrzd
+{
+	text-align:right;
+	text-transform:capitalize;
+	font-weight: 800;
+	font-size: 0.1in;
+	font-family: Sans-Serif;
+	color: Peru;
+	text-indent: 1cm;
+	line-height: 1cm;
+	word-spacing: 12px;
+	letter-spacing:2ex;
+}
