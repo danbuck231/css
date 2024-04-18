@@ -1,0 +1,17 @@
+div {
+    width: 606px;
+    background-color: green;
+    font-size: 19mm;
+}
+
+#blok_bucki_1:hover {
+    background-color: blue;
+}
+
+#blok_bucki_2 {
+    background-color: silver;
+}
+
+#blok_bucki_3 {
+    background-color: #03fc24;
+}
