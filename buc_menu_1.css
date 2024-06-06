@@ -1,0 +1,13 @@
+body
+{
+background-color: rgb(126,95,51);
+}
+#ramka{
+font-size:15px;
+color:white;
+width: 40%;
+height:auto;
+padding : 5px;
+border : 4px dashed black;
+background : rgb(100,50,153);
+}
