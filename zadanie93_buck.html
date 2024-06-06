@@ -1,0 +1,55 @@
+<html>
+ <head>
+ <meta charset="UTF-8">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+ <meta name="Description" content=" [zadanie 93 css] ">
+ <meta name="Keywords" content="słowa klucze nie wiem co dają">
+ <meta name="Author" content=" [Daniel Bucki 1P] ">
+ <meta name="Generator" content="nie wiem po co to ale robie">
+ <title>menu pionowe czynność pierwsza</title>
+ <link rel="stylesheet" href="buc_menu.css" type="text/css">
+</head>
+<body>
+<h1>Menu pionowe - krok pierwszy</h1>
+<ul>
+<li><a href="link1_buck1.html">Pierwszy link</a></li>
+<li><a href="link2_buck1.html">Drugi link</a></li>
+<li><a href="link3_buck1.html">Trzeci link</a></li>
+<li><a href="link4_buck1.html">Czwarty link</a></li>
+<li><a href="link5_buck1.html">Piaty link</a></li>
+</ul>
+<p id="ramka">ul
+{<br>
+  list-style: none; =>> (Usuwa domyślny styl listy, np. punkty, kropki)<br>
+  margin: 5px; =>> (Ustawia margines zewnętrzny elementu na 5 pikseli)<br>
+  padding: 0px; =>> (Ustawia margines wewnętrzny elementu na 0 pikseli)<br>
+  display: block; =>> (Element będzie wyświetlony jako blok, co powoduje odstęp z góry i z dołu)<br>
+  width: 150px; =>> (Ustawia szerokość elementu na 150 pikseli)<br>
+}<br>
+ul li =>> (Definiuje styl dla elementów listy (li) wewnątrz nieuporządkowanej listy)<br>
+{<br>
+  display: block; =>> (Element będzie wyświetlony jako blok)<br>
+  list-style: none; =>> (Usuwa domyślny styl listy dla elementów li)<br>
+  margin: 0px; =>> (Ustawia margines zewnętrzny elementu na 0 pikseli)<br>
+  padding: 0px; =>> (Ustawia margines wewnętrzny elementu na 0 pikseli)<br>
+}<br>
+ul a:link, ul a:visited<br>
+{<br>
+  display: block; =>> (Element będzie wyświetlony jako blok)<br>
+  color: #005500; =>> (Ustawia kolor tekstu linku na ciemnozielony)<br>
+  text-decoration: none; =>> (Usuwa podkreślenie z linków)<br>
+  border: 2px outset #cccccc; =>> (Ustawia obramowanie na 2 piksele, stylizowane jako wypukłe z kolorem #cccccc)<br>
+  padding: 5px; =>> (Ustawia margines wewnętrzny na 5 pikseli)<br>
+  width: 120px; =>> (Ustawia szerokość elementu na 120 pikseli)<br>
+}<br>
+ul a:hover<br>
+{<br>
+  color: #ff00ff; =>> (Ustawia kolor tekstu na różowy po najechaniu kursorem)<br>
+  text-decoration: none; =>> (Usuwa podkreślenie z linków po najechaniu kursorem)<br>
+  border-style: inset; =>> (Ustawia styl obramowania na wklęsły)<br>
+  padding: 7px 3px 3px 7px; =>> (Ustawia margines wewnętrzny na 7 pikseli z góry, 3 piksele z prawej, 3 piksele z dołu, i 7 pikseli z lewej, zgodnie z ruchem wskazówek zegara)<br>
+}<br>
+
+</p>
+</body>
+</html>
